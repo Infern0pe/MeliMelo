@@ -1,0 +1,42 @@
+/*Vh et Vw + pourcents pour les mesures */
+.windows{
+    position: fixed;
+    display: list-item;
+    padding: none;
+    left: 50%;
+    margin-left: -297px;
+}
+div.windows>iframe{
+    z-index: 1;
+}
+body{
+    background-color: rgb(159, 112, 57);
+}
+/*#cadre{
+    border: 3px solid brown;
+    position: fixed;
+}*/
+#table{
+    z-index: -1;
+}
+/*img {
+    width: fit-content;
+    height: auto;
+
+}*/
+#haut {
+    width: 595px;
+    height: 300px;
+    top: 0px;
+}
+#mid {
+    width: 595px;
+    height: 242px;
+    top: 300px;   
+}
+#bas {
+    width: 595px;
+    height: 300px;
+    top: 536px;
+}
+
